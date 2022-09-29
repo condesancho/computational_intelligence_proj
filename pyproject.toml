@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "computational-intelligence-proj"
+version = "0.1.0"
+description = ""
+authors = ["condesancho <arailosb@gmail.com>"]
+readme = "README.md"
+packages = [{include = "computational_intelligence_proj"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+tensorflow = "^2.10.0"
+numpy = "^1.23.3"
+keras = "^2.10.0"
+matplotlib = "^3.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
