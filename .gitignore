@@ -1,1 +1,4 @@
 /.venv
+/.vscode
+test*
+/mlp/untitled_project
